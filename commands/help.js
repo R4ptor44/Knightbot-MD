@@ -5,13 +5,13 @@ const path = require('path');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
-   Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
+   *🤖 ${settings.botName || '𝐁𝐥𝐚𝐜𝐤-𝐁𝐨𝐭 𝐌𝐃'}*  
+   Version: *${settings.version || '2.0.0'}*
+   by ${settings.botOwner || '𝐁𝐥𝐚𝐜𝐤'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
-*Available Commands:*
+*Commands:*
 
 ╔═══════════════════╗
 ⚙️ *General Commands*:
