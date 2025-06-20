@@ -14,7 +14,7 @@ async function helpCommand(sock, chatId, channelLink) {
 *Commands:*
 
 ╔═══════════════════╗
-⚙️ *General Commands*:
+⚙️ _*General Commands*_:
 ║ ➤ .help or .menu
 ║ ➤ .ping
 ║ ➤ .alive
@@ -37,7 +37,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝ 
 
 ╔═══════════════════╗
-🔒 *Admin Commands*:
+🔒 _*Admin Commands*_:
 ║ ➤ .ban @user
 ║ ➤ .promote @user
 ║ ➤ .demote @user
@@ -57,7 +57,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🔒 *Owner Commands*:
+🔒 _*Owner Commands*_:
 ║ ➤ .mode
 ║ ➤ .autostatus
 ║ ➤ .clearsession
@@ -68,7 +68,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎨 *Image/Sticker Commands*:
+🎨 _*Image/Sticker Commands*_:
 ║ ➤ .blur <image>
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
@@ -79,7 +79,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝  
 
 ╔═══════════════════╗
-🎮 *Game Commands*:
+🎮 _*Game Commands*_:
 ║ ➤ .tictactoe @user
 ║ ➤ .hangman
 ║ ➤ .guess <letter>
@@ -90,13 +90,13 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🤖 *AI Commands*:
+🤖 _*AI Commands*_:
 ║ ➤ .gpt <question>
 ║ ➤ .gemini <question>
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎯 *Fun Commands*:
+🎯 _*Fun Commands*_:
 ║ ➤ .compliment @user
 ║ ➤ .insult @user
 ║ ➤ .flirt 
@@ -108,7 +108,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🔤 *Textmaker*:
+🔤 _*Textmaker*_:
 ║ ➤ .metallic <text>
 ║ ➤ .ice <text>
 ║ ➤ .snow <text>
@@ -130,7 +130,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
- *Downloader*:
+ _*Downloader*_:
 ║ ➤ .play <song_name>
 ║ ➤ .song <song_name>
 ║ ➤ .instagram <link>
@@ -139,7 +139,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-💻 *Github Commands:*
+💻 _*Github Commands:*_
 ║ ➤ .git
 ║ ➤ .github
 ║ ➤ .sc
@@ -147,9 +147,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .repo
 ╚═══════════════════╝
 
-Join our channel for updates:`
-        
-> `⚠️WARNING!` : _Long-term misuse of this WhatsApp bot 🤖 could force WhatsApp to ban you 🫵, so be careful 😊._;
+Join our channel for updates:`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
