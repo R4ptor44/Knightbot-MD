@@ -14,7 +14,7 @@ async function helpCommand(sock, chatId, channelLink) {
 *Available Commands:*
 
 ╔═══════════════════╗
-🌐 *General Commands*:
+⚙️ *General Commands*:
 ║ ➤ .help or .menu
 ║ ➤ .ping
 ║ ➤ .alive
@@ -37,7 +37,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝ 
 
 ╔═══════════════════╗
-👮‍♂️ *Admin Commands*:
+🔒 *Admin Commands*:
 ║ ➤ .ban @user
 ║ ➤ .promote @user
 ║ ➤ .demote @user
@@ -130,7 +130,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-📥 *Downloader*:
+ *Downloader*:
 ║ ➤ .play <song_name>
 ║ ➤ .song <song_name>
 ║ ➤ .instagram <link>
@@ -147,7 +147,9 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .repo
 ╚═══════════════════╝
 
-Join our channel for updates:`;
+Join our channel for updates:`
+        
+> `⚠️WARNING!` : _Long-term misuse of this WhatsApp bot 🤖 could force WhatsApp to ban you 🫵, so be careful 😊._;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
